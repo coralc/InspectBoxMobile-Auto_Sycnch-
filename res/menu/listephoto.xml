@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_voir"
+        android:icon="@drawable/ic_action_photo"
+        android:showAsAction="ifRoom"
+        android:title="@string/voir" >
+    </item>
+    <item
+        android:id="@+id/menu_supprimer"
+         android:icon="@drawable/ic_action_delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/supprimer">
+    </item>
+
+</menu>

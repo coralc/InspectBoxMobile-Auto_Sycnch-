@@ -1,0 +1,603 @@
+#
+# generated on 2013/07/22 02:46:15
+#
+# --table-start--
+dataClass=com.coralc.inspectbox.database.Utilisateur
+tableName=utilisateur
+# --table-fields-start--
+# --field-start--
+fieldName=idUtilisateur
+columnName=IdUtilisateur
+id=true
+# --field-end--
+# --field-start--
+fieldName=codeAcces
+columnName=CodeAcces
+# --field-end--
+# --field-start--
+fieldName=motDePasse
+columnName=MotDePasse
+# --field-end--
+# --field-start--
+fieldName=nom
+columnName=Nom
+# --field-end--
+# --field-start--
+fieldName=prenom
+columnName=Prenom
+# --field-end--
+# --field-start--
+fieldName=typeUser
+columnName=TypeUser
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.Inspection
+tableName=Inspection
+# --table-fields-start--
+# --field-start--
+fieldName=idInspection
+columnName=IdInspection
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=idNiveaubat
+columnName=IdNiveaubat
+# --field-end--
+# --field-start--
+fieldName=idNiveau
+columnName=IdNiveau
+# --field-end--
+# --field-start--
+fieldName=idNiveauObjet
+columnName=IdNiveauObjet
+# --field-end--
+# --field-start--
+fieldName=idInformation
+columnName=IdInformation
+# --field-end--
+# --field-start--
+fieldName=dateInformation
+columnName=DateInformation
+# --field-end--
+# --field-start--
+fieldName=idChoix
+columnName=IdChoix
+# --field-end--
+# --field-start--
+fieldName=reponse
+columnName=Reponse
+# --field-end--
+# --field-start--
+fieldName=defekt
+columnName=Defekt
+# --field-end--
+# --field-start--
+fieldName=pause
+columnName=Pause
+# --field-end--
+# --field-start--
+fieldName=limite
+columnName=Limite
+# --field-end--
+# --field-start--
+fieldName=statut
+columnName=Statut
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.LibelleNiveau
+tableName=LibelleNiveau
+# --table-fields-start--
+# --field-start--
+fieldName=idLibelleniveau
+columnName=IdLibelleNiveau
+id=true
+# --field-end--
+# --field-start--
+fieldName=num
+columnName=Num
+# --field-end--
+# --field-start--
+fieldName=typeniveau
+columnName=TypeNiveau
+# --field-end--
+# --field-start--
+fieldName=libelle
+columnName=Libelle
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.Niveau
+tableName=Niveau
+# --table-fields-start--
+# --field-start--
+fieldName=idNiveau
+columnName=IdNiveau
+id=true
+# --field-end--
+# --field-start--
+fieldName=idTypeReponse
+columnName=IdTypeReponse
+# --field-end--
+# --field-start--
+fieldName=libelle
+columnName=Libelle
+# --field-end--
+# --field-start--
+fieldName=idNiveauParent
+columnName=IdNiveauParent
+# --field-end--
+# --field-start--
+fieldName=idNiveauObjet
+columnName=IdNiveauObjet
+# --field-end--
+# --field-start--
+fieldName=tri
+columnName=Tri
+# --field-end--
+# --field-start--
+fieldName=level
+columnName=Level
+# --field-end--
+# --field-start--
+fieldName=codebarre
+columnName=CodeBarre
+# --field-end--
+# --field-start--
+fieldName=areaTag
+columnName=AreaTag
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.NiveauObjet
+tableName=NiveauObjet
+# --table-fields-start--
+# --field-start--
+fieldName=idNiveauobjet
+columnName=IdNiveauObjet
+id=true
+# --field-end--
+# --field-start--
+fieldName=idTypereponse
+columnName=IdTypeReponse
+# --field-end--
+# --field-start--
+fieldName=idNiveauobjetparent
+columnName=IdNiveauObjetParent
+# --field-end--
+# --field-start--
+fieldName=libelle
+columnName=Libelle
+# --field-end--
+# --field-start--
+fieldName=lowlimit
+columnName=Lowlimit
+# --field-end--
+# --field-start--
+fieldName=highlimit
+columnName=Highlimit
+# --field-end--
+# --field-start--
+fieldName=lowborder
+columnName=Lowborder
+# --field-end--
+# --field-start--
+fieldName=highborder
+columnName=Highborder
+# --field-end--
+# --field-start--
+fieldName=lowborderalert
+columnName=Lowborderalert
+# --field-end--
+# --field-start--
+fieldName=highborderalert
+columnName=Highborderalert
+# --field-end--
+# --field-start--
+fieldName=unitmeasure
+columnName=Unitmeasure
+# --field-end--
+# --field-start--
+fieldName=tri
+columnName=Tri
+# --field-end--
+# --field-start--
+fieldName=codebarre
+columnName=CodeBarre
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.Parametrage
+tableName=Parametrage
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=Id
+id=true
+# --field-end--
+# --field-start--
+fieldName=codeClient
+columnName=CodeClient
+# --field-end--
+# --field-start--
+fieldName=motdepasseClient
+columnName=MotDePasseClient
+# --field-end--
+# --field-start--
+fieldName=urlClient
+columnName=UrlClient
+# --field-end--
+# --field-start--
+fieldName=nbTerminal
+columnName=NbTerminal
+# --field-end--
+# --field-start--
+fieldName=idUtilisateur
+columnName=IdUtilisateur
+# --field-end--
+# --field-start--
+fieldName=codebarre
+columnName=Codebarre
+# --field-end--
+# --field-start--
+fieldName=passeappli
+columnName=Passeappli
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+
+# --table-start--
+dataClass=com.coralc.inspectbox.database.TypeReponse
+tableName=TypeReponse
+# --table-fields-start--
+# --field-start--
+fieldName=idTypeReponse
+columnName=IdTypeReponse
+id=true
+# --field-end--
+# --field-start--
+fieldName=idclient
+columnName=IdClient
+# --field-end--
+# --field-start--
+fieldName=libelle
+columnName=Libelle
+# --field-end--
+# --field-start--
+fieldName=modeReponse
+columnName=ModeReponse
+# --field-end--
+# --field-start--
+fieldName=masque
+columnName=Masque
+# --field-end--
+# --field-start--
+fieldName=clefTimestamp
+columnName=CleTimestamp
+# --field-end--
+# --table-fields-end--
+# --table-end--
+
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.Choix
+tableName=Choix
+# --table-fields-start--
+# --field-start--
+fieldName=idChoix
+columnName=IdChoix
+id=true
+# --field-end--
+# --field-start--
+fieldName=valeur
+columnName=Valeur
+# --field-end--
+# --field-start--
+fieldName=nonConforme
+columnName=NonConforme
+# --field-end--
+# --field-start--
+fieldName=idTypeReponse
+columnName=IdTypeReponse
+# --field-end--
+# --field-start--
+fieldName=tri
+columnName=Tri
+# --field-end--
+# --table-fields-end--
+# --table-end--
+
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.Team
+tableName=Team
+# --table-fields-start--
+# --field-start--
+fieldName=idteam
+columnName=idteam
+id=true
+# --field-end--
+# --field-start--
+fieldName=beginHour
+columnName=beginHour
+# --field-end--
+# --field-start--
+fieldName=endHour
+columnName=endHour
+# --field-end--
+# --field-start--
+fieldName=dayOfWork
+columnName=dayOfWork
+# --field-end--
+# --field-start--
+fieldName=idUser
+columnName=idUser
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.Objeteam
+tableName=Objeteam
+# --table-fields-start--
+# --field-start--
+fieldName=idField
+columnName=idField
+id=true
+# --field-end--
+# --field-start--
+fieldName=idTeam
+columnName=idTeam
+# --field-end--
+# --field-start--
+fieldName=idObjet
+columnName=idObjet
+# --field-end--
+# --field-start--
+fieldName=lun
+columnName=lun
+# --field-end--
+# --field-start--
+fieldName=mar
+columnName=mar
+# --field-end--
+# --field-start--
+fieldName=mer
+columnName=mer
+# --field-end--
+# --field-start--
+fieldName=jeu
+columnName=jeu
+# --field-end--
+# --field-start--
+fieldName=ven
+columnName=ven
+# --field-end--
+# --field-start--
+fieldName=sam
+columnName=sam
+# --field-end--
+# --field-start--
+fieldName=dim
+columnName=dim
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.Statutfin
+tableName=Statutfin
+# --table-fields-start--
+# --field-start--
+fieldName=niveauPath
+columnName=NiveauPath
+id=true
+# --field-end--
+# --field-start--
+fieldName=statutValue
+columnName=StatutValue
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.StatutHS
+tableName=StatutHS
+# --table-fields-start--
+# --field-start--
+fieldName=niveauid
+columnName=Niveauid
+id=true
+# --field-end--
+# --field-start--
+fieldName=statutValue
+columnName=StatutValue
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.Historique
+tableName=Historique
+# --table-fields-start--
+# --field-start--
+fieldName=idhis
+columnName=Idhis
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=valeur
+columnName=Valeur
+# --field-end--
+# --field-start--
+fieldName=idObjet
+columnName=IdObjet
+# --field-end--
+# --field-start--
+fieldName=dateHist
+columnName=DateHist
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.Cloture
+tableName=Cloture
+# --table-fields-start--
+# --field-start--
+fieldName=idNiveau
+columnName=IdNiveau
+id=true
+# --field-end--
+# --field-start--
+fieldName=dateCloture
+columnName=DateCloture
+# --field-end--
+# --field-start--
+fieldName=debDateCloture
+columnName=DebDateCloture
+# --field-end--
+# --field-start--
+fieldName=statutCloture
+columnName=StatutCloture
+# --field-end--
+# --field-start--
+fieldName=userCloture
+columnName=UserCloture
+# --field-end--
+# --field-start--
+fieldName=dayCloture
+columnName=DayCloture
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.StatutInac
+tableName=StatutInac
+# --table-fields-start--
+# --field-start--
+fieldName=idNiveau
+columnName=IdNiveau
+id=true
+# --field-end--
+# --field-start--
+fieldName=statutValue
+columnName=StatutValue
+# --field-end--
+# --field-start--
+fieldName=objet
+columnName=Objet
+# --field-end--
+# --field-start--
+fieldName=dateinacc
+columnName=Dateinacc
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.Nfc
+tableName=Nfc
+# --table-fields-start--
+# --field-start--
+fieldName=idNiveau
+columnName=IdNiveau
+id=true
+# --field-end--
+# --field-start--
+fieldName=nfcTag
+columnName=NfcTag
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.DatesModifications
+tableName=DatesModifications
+# --table-fields-start--
+# --field-start--
+fieldName=nomTable
+columnName=NomTable
+id=true
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=TimeStamp
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.coralc.inspectbox.database.StatusPI
+tableName=StatusPI
+# --table-fields-start--
+# --field-start--
+fieldName=idTag
+columnName=IdTag
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=areaTag
+columnName=AreaTag
+# --field-end--
+# --field-start--
+fieldName=tagName
+columnName=TagName
+# --field-end--
+# --field-start--
+fieldName=tagDescription
+columnName=TagDescription
+# --field-end--
+# --field-start--
+fieldName=tagUnit
+columnName=TagUnit
+# --field-end--
+# --field-start--
+fieldName=value
+columnName=Value
+# --field-end--
+# --field-start--
+fieldName=status
+columnName=Status
+# --field-end--
+# --field-start--
+fieldName=lowLimit
+columnName=LowLimit
+# --field-end--
+# --field-start--
+fieldName=highLimit
+columnName=HighLimit
+# --field-end--
+# --field-start--
+fieldName=lowBorder
+columnName=LowBorder
+# --field-end--
+# --field-start--
+fieldName=highBorder
+columnName=HighBorder
+# --field-end--
+# --field-start--
+fieldName=timestamp
+columnName=Timestamp
+# --field-end--
+# --field-start--
+fieldName=clientName
+columnName=ClientName
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

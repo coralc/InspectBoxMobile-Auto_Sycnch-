@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+    android:id="@+id/menu_parametragesolo"
+    android:icon="@drawable/ic_action_edit"
+    android:showAsAction="always"
+    android:title="@string/menuoptions">
+    <menu>
+        <item
+            android:id="@+id/menu_filtersolo"
+           android:showAsAction="never"
+            android:title="@string/menufilter">
+            <menu>
+                <item
+            android:id="@+id/filtre_allsolo"
+            android:showAsAction="never"
+            android:title="@string/filtreall"/>
+                 <item
+            android:id="@+id/filtre_offensolo"
+            android:showAsAction="never"
+            android:title="@string/filtreoffen"/>
+                  <item
+            android:id="@+id/filtre_pbsolo"
+            android:showAsAction="never"
+            android:title="@string/filtrepb"/>
+                 </menu>
+</item>
+        <item
+            android:id="@+id/menu_anafangensolo"
+            android:showAsAction="never"
+            android:title="@string/menuanafangen"/>
+        <item
+            android:id="@+id/menu_beendensolo"
+            android:showAsAction="never"
+            android:title="@string/menubeenden"/>
+        <item
+            android:id="@+id/menu_Betriebsolo"
+            android:showAsAction="never"
+            android:title="@string/menuBetrieb"/>
+        
+   </menu>
+</item>
+</menu>

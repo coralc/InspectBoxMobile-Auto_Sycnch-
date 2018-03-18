@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+    android:id="@+id/menu_cloture"
+    android:icon="@drawable/ic_action_edit"
+    android:showAsAction="always"
+    android:title="@string/menuoptions">
+    <menu>
+        
+
+       
+        <item
+            android:id="@+id/menu_beendensite"
+            android:showAsAction="never"
+            android:title="@string/menubeenden"/>
+        
+        
+   </menu>
+</item>
+</menu>

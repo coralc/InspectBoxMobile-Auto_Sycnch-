@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+    android:id="@+id/menu_parametrageib"
+    android:icon="@drawable/ic_action_edit"
+    android:showAsAction="always"
+    android:title="@string/menuoptions">
+    <menu>
+        <item
+            android:id="@+id/menu_cb"
+            android:showAsAction="never"
+            android:title="@string/menuancb"/>
+        <item
+            android:id="@+id/menu_historiqueb"
+           android:showAsAction="never"
+            android:title="@string/menuhistorique" />
+           
+
+        <item
+            android:id="@+id/menu_Rundgangb"
+            android:showAsAction="never"
+            android:title="@string/menuRundgang"/>
+       
+        
+   </menu>
+</item>
+</menu>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/topLeft"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights" >
+
+                <ImageButton
+                    android:id="@+id/btnInspection"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/inspection"
+                    android:src="@drawable/inspection"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/txtInspection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="@string/inspection" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/topRight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/btnSync"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/synchroniser"
+                    android:src="@drawable/synchronisation"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/txtSynchro"
+                    android:layout_width="wrap_content"
+                    
+                    android:layout_height="45dp"
+                    android:text="@string/synchroniser" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/botLeft"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights" >
+
+                <ImageButton
+                    android:id="@+id/btnParam"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/parametrage"
+                    android:src="@drawable/param"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/txtParam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parametrage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/botRight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/btnExit"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/quitter"
+                    android:src="@drawable/exit"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/txtExit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quitter" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
